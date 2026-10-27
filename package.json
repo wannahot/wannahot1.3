@@ -1,0 +1,12 @@
+{
+  "name": "wanna-hot-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Statyczna strona produktowa wanna.hot (zakup przez Allegro)",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/check.mjs",
+    "start": "npx --yes serve public"
+  },
+  "engines": { "node": ">=18" }
+}
